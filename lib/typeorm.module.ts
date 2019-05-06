@@ -1,5 +1,5 @@
 import { DynamicModule, Module } from '@nestjs/common';
-import { Connection, ConnectionOptions } from 'typeorm';
+import { Connection, ConnectionOptions } from '@basebit/typeorm';
 import {
   TypeOrmModuleAsyncOptions,
   TypeOrmModuleOptions,

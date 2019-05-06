@@ -7,7 +7,7 @@ import {
   ConnectionOptions,
   EntityManager,
   Repository,
-} from 'typeorm';
+} from '@basebit/typeorm';
 import { isNullOrUndefined } from 'util';
 import * as uuid from 'uuid/v4';
 import { CircularDependencyException } from '../exceptions/circular-dependency.exception';

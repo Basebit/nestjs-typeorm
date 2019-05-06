@@ -31,7 +31,7 @@ The [TypeORM](http://typeorm.io) module for [Nest](https://github.com/nestjs/nes
 ## Installation
 
 ```bash
-$ npm i --save @nestjs/typeorm typeorm
+$ npm i --save @basebit/nestjs-typeorm @basebit/typeorm
 ```
 
 ## Quick Start

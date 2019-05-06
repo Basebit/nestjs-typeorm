@@ -4,7 +4,7 @@ import {
   Connection,
   ConnectionOptions,
   Repository,
-} from 'typeorm';
+} from '@basebit/typeorm';
 import { getConnectionToken, getRepositoryToken } from './common/typeorm.utils';
 
 export function createTypeOrmProviders(

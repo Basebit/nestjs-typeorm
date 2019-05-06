@@ -14,7 +14,7 @@ import {
   ConnectionOptions,
   createConnection,
   getConnection,
-} from 'typeorm';
+} from '@basebit/typeorm';
 import {
   generateString,
   getConnectionName,

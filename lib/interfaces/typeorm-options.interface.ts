@@ -1,6 +1,6 @@
 import { Type } from '@nestjs/common';
 import { ModuleMetadata } from '@nestjs/common/interfaces';
-import { ConnectionOptions } from 'typeorm';
+import { ConnectionOptions } from '@basebit/typeorm';
 
 export type TypeOrmModuleOptions = {
   retryAttempts?: number;
